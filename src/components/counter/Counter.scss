@@ -1,0 +1,28 @@
+.section__counter {
+    width: 400px;
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    h2 {
+        font-size: 1rem;
+        padding-block-end: 10px;
+        color: #C8C8C8
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-block-end: 10px;
+        button {
+            padding: 2px 5px;
+        }
+        p {
+            color: #C8C8C8;
+            padding-inline: 20px;
+        }
+    }
+    button {
+        padding: 0 20px;
+    }
+}

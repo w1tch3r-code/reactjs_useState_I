@@ -1,0 +1,31 @@
+.section__darkmode {
+	max-width: 800px;
+	text-align: center;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
+	padding-block: 100px;
+	h2 {
+		font-size: 1rem;
+		padding-block-end: 10px;
+	}
+	p {
+		font-size: 4rem;
+		font-weight: 600;
+	}
+	button {
+		margin-top: 30px;
+		padding: 10px;
+		border-radius: 10px;
+		background-color: white;
+        cursor: pointer;
+	}
+}
+
+.dark {
+    background-color: rgb(45, 45, 45);
+    color: white;
+}

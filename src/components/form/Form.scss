@@ -1,0 +1,27 @@
+.section__form {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(110, 110, 110);
+    margin-top: 20px;
+    h2 {
+        font-size: 1rem;
+        padding-block-end: 10px;
+        color: #C8C8C8
+    }
+    form {
+        margin-block-end: 10px;
+        input {
+            padding: 5px;
+        }
+    }
+    p {
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+        text-align: left;
+        span {
+            font-weight: 600;
+            color: #242424;
+        }
+    }
+}
