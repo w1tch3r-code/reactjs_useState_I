@@ -2,17 +2,20 @@
     max-width: 800px;
     text-align: center;
     padding: 20px;
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(190, 190, 190);
     margin-top: 20px;
     h2 {
         font-size: 1rem;
         padding-block-end: 10px;
-        color: #C8C8C8
+        color: rgb(45, 45, 45);
     }
     form {
         margin-block-end: 10px;
         input {
             padding: 5px;
+        }
+        input:nth-of-type(2) {
+            margin-inline: 5px;
         }
     }
     p {
